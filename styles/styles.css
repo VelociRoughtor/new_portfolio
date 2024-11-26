@@ -4,31 +4,20 @@ body {
     padding: 0;
     color: #333;
     line-height: 1.6;
+    background-color: #f9f9f9;
 }
 
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    align-items: center;
-}
-
-.container img {
-    max-width: 50%;
-    border-radius: 20px;
-}
-
-.container > p {
-    font-weight: bolder;
-    font-size: larger;
-    padding-top: 20px;
+    text-align: center;
 }
 
 header {
     background: #800000;
     color: white;
     padding: 20px 0;
-    text-align: center;
 }
 
 header h1 {
@@ -39,31 +28,63 @@ header h1 {
 header nav ul {
     list-style: none;
     padding: 0;
+    margin: 10px 0 0 0;
 }
 
 header nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline-block;
+    margin: 0 15px;
 }
 
 header nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 header nav ul li a:hover {
     text-decoration: underline;
 }
 
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #800000;
+    margin-bottom: 20px;
+}
+
+.section img {
+    width: 50%;
+    height: 50%;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 3px solid #982B1C;
+}
+
+.section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+    font-weight: bold;
+}
+
 footer {
     background: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    padding: 15px 0;
 }
 
 footer p {
     margin: 0;
+    font-size: 0.9rem;
 }
